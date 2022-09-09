@@ -18,7 +18,7 @@
 }
 
 .index-page {
-  --notion-max-width: 900px;
+
 }
 
 .notion-text {
@@ -163,7 +163,9 @@
 
 .notion-title {
   display: block;
-  text-align: center;
+}
+.index-page .notion-title{
+  text-align : center;
 }
 
 .notion-collection-row {
