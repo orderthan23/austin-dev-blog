@@ -54,11 +54,15 @@ export const PageHead: React.FC<
       {socialImageUrl ? (
         <>
           <meta name='twitter:card' content='summary_large_image' />
-          <meta name='twitter:image' content={socialImageUrl} />
-          <meta property='og:image' content={socialImageUrl} />
+          <meta name='twitter:image' content={"https://austin-content.s3.ap-northeast-2.amazonaws.com/card.png"} />
+          <meta property='og:image' content={"https://austin-content.s3.ap-northeast-2.amazonaws.com/card.png"} />
         </>
       ) : (
-        <meta name='twitter:card' content='summary' />
+        <>
+          <meta name='twitter:card' content='summary_large_image' />
+          <meta name='twitter:image' content={"https://austin-content.s3.ap-northeast-2.amazonaws.com/card.png"} />
+          <meta property='og:image' content={"https://austin-content.s3.ap-northeast-2.amazonaws.com/card.png"} />
+        </>
       )}
 
       {url && (

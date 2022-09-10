@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Ddoit.dev',
+  name: 'DDOIT.DEV',
   domain: 'https://ddoit-dev.vercel.app/',
   author: 'Austin Jonghyun Ko',
 
@@ -25,8 +25,8 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: "https://austin-content.s3.ap-northeast-2.amazonaws.com/logo.png",
-  defaultPageCover: "https://austin-content.s3.ap-northeast-2.amazonaws.com/card.png",
+  defaultPageIcon: null,
+  defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
