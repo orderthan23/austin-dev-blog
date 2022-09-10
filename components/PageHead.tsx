@@ -45,9 +45,9 @@ export const PageHead: React.FC<
 
       {description && (
         <>
-          <meta name='description' content={description} />
-          <meta property='og:description' content={description} />
-          <meta name='twitter:description' content={description} />
+          <meta name='description' content={`${description}\n ${title}`} />
+          <meta property='og:description' content={`${description}\n ${title}`} />
+          <meta name='twitter:description' content={`${description}\n ${title}`} />
         </>
       )}
 
@@ -79,9 +79,11 @@ export const PageHead: React.FC<
         href={rssFeedUrl}
         title={site?.name}
       />
-
+      <meta property='keyword' content={title}/>
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5373931502284880"
+              crossOrigin="anonymous"></script>
       <title>{title}</title>
     </Head>
   )
