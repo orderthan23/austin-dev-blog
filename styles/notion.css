@@ -59,8 +59,10 @@
 }
 
 .notion-gallery-grid .notion-page-title-text {
-  font-size: 1.3em;
-  white-space: unset;
+  font-size: 1.2em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow : hidden;
 }
 
 .notion-gallery-grid .notion-collection-card-property {
@@ -119,9 +121,10 @@
 .notion-quote {
   padding: 0.2em 0.75em;
   line-height: 1.5;
-  font-style: italic;
+  /*font-style: italic;*/
   font-size: 1.2em;
-  border-left: 4px solid #67bdfc;
+  border-left: 3px solid #FFB6C1;
+  background : inherit;
 }
 
 .notion-h1,
@@ -166,9 +169,9 @@
 .notion-title {
   display: block;
 }
-.index-page .notion-title{
-  text-align : center;
-}
+/*.index-page .notion-title{*/
+/*  text-align : center;*/
+/*}*/
 
 .notion-collection-row {
   padding-bottom: 1em;
@@ -180,7 +183,7 @@
 
 .notion-collection-row-property .notion-property {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .notion-collection-row-value {
@@ -347,9 +350,27 @@
 }
 
 /* if you don't want rounded page icon images, remove this */
+.notion-page-icon-hero  {
+  position : relative;
+  top : 0;
+  left : 0;
+}
+.notion-page-has-cover{
+  padding-top : 85px;
+}
+.notion-page-no-cover .notion-page-icon-hero{
+  margin-bottom : 20px;
+}
+.notion-page-no-cover{
+  margin-top : 0 !important;
+}
+
 .notion-page-icon-hero.notion-page-icon-image {
   border-radius: 50%;
   box-shadow: 0 8px 40px 0 rgb(0 0 0 / 21%);
+  margin-left : 0px;
+  margin-top : 10px;
+
 }
 .notion-page-icon-hero.notion-page-icon-image span,
 .notion-page-icon-hero.notion-page-icon-image img {

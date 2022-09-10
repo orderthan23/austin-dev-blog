@@ -17,16 +17,16 @@ export default siteConfig({
   description: '프론트엔드 개발자 고종현의 블로그입니다.',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
+  //twitter: 'transitive_bs',
   github: 'orderthan23',
-  linkedin: 'fisch2',
+  linkedin: 'austin-ko-13534124a',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
-  defaultPageCover: null,
+  defaultPageIcon: "https://austin-content.s3.ap-northeast-2.amazonaws.com/logo.png",
+  defaultPageCover: "https://austin-content.s3.ap-northeast-2.amazonaws.com/card.png",
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
@@ -49,16 +49,19 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  //navigationStyle: 'default'
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: 'About',
-      pageId: 'd6ab0e37c4a04b4c853739bce705bcd1'
-    },
-    {
-      title: 'Contact',
-      pageId: 'd5d29d894575424e9e893db01e662d1c'
-    }
-  ]
+  navigationStyle: 'default',
+
+
+
+  // navigationStyle: 'custom',
+  // navigationLinks: [
+  //   {
+  //     title: 'About',
+  //     pageId: 'd6ab0e37c4a04b4c853739bce705bcd1'
+  //   },
+  //   {
+  //     title: 'Contact',
+  //     pageId: 'd5d29d894575424e9e893db01e662d1c'
+  //   }
+  // ]
 })

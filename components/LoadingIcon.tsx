@@ -18,9 +18,9 @@ export const LoadingIcon = (props) => {
           y2='17.7832031%'
           id='linearGradient-1'
         >
-          <stop stopColor='rgba(164, 164, 164, 1)' offset='0%' />
+          <stop stopColor='rgba(245, 218, 223, 1)' offset='0%' />
           <stop
-            stopColor='rgba(164, 164, 164, 0)'
+            stopColor='rgba(245, 218, 223, 0)'
             stopOpacity='0'
             offset='100%'
           />
@@ -41,12 +41,12 @@ export const LoadingIcon = (props) => {
             <path
               d='M10,2 C4.4771525,2 0,6.4771525 0,12'
               id='Oval-2'
-              stroke='rgba(164, 164, 164, 1)'
+              stroke='rgba(245, 218, 223, 1)'
               strokeWidth='4'
             />
             <rect
               id='Rectangle-1'
-              fill='rgba(164, 164, 164, 1)'
+              fill='rgba(245, 218, 213, 1)'
               x='8'
               y='0'
               width='4'
