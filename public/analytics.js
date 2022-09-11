@@ -1,4 +1,8 @@
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
+const dataLayer = window.dataLayer || [];
+
+function gtag() {
+  dataLayer.push(arguments);
+}
+
 gtag('js', new Date());
 gtag('config', 'G-CBZDMX2VR3');

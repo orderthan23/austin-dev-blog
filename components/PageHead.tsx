@@ -4,8 +4,6 @@ import * as React from 'react'
 import * as types from 'lib/types'
 import * as config from 'lib/config'
 import { getSocialImageUrl } from 'lib/get-social-image-url'
-import Script from "next/script";
-
 export const PageHead: React.FC<
   types.PageProps & {
     title?: string
@@ -84,11 +82,8 @@ export const PageHead: React.FC<
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
       {/*google adsense*/}
-      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5373931502284880"
-              crossOrigin="anonymous"/>
-      {/*google analytics*/}
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-CBZDMX2VR3"></Script>
-      <Script src="/analytics"/>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5373931502284880"
+              crossOrigin="anonymous"></script>
       <title>{title}</title>
     </Head>
   )

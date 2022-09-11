@@ -17,6 +17,16 @@ export default class MyDocument extends Document {
             />
 
             <link rel='manifest' href='/manifest.json' />
+            {/*analytics*/}
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-CBZDMX2VR3"></script>
+            <script  dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-CBZDMX2VR3');
+              `}}>
+            </script>
           </Head>
 
           <body>
