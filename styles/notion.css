@@ -32,11 +32,16 @@
 .notion-asset-wrapper {
   margin-top: 1em;
   margin-bottom: 1em;
+  display : block;
 }
 
 .notion-asset-wrapper-video > div,
 .notion-asset-wrapper-video video {
   width: 100% !important;
+}
+
+.notion-page-no-cover.notion-page-has-image-icon{
+  padding-top : 0;
 }
 
 .notion-header .notion-nav-header {
