@@ -23,7 +23,7 @@ export const getStaticProps: GetStaticProps<PageProps, Params> = async (context)
 }
 
 export async function getStaticPaths() {
-  if (true) {
+  if (!isDev) {
     return {
       paths: [],
       fallback: true
