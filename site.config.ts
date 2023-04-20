@@ -19,7 +19,7 @@ export default siteConfig({
   // social usernames (optional)
   //twitter: 'transitive_bs',
   github: 'orderthan23',
-  linkedin: 'austin-ko-13534124a',
+  linkedin: '종현-고-13534124a',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
