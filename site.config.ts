@@ -23,7 +23,7 @@ export default siteConfig({
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
-  // default notion icon and cover images for site-wide consistency (optional)
+  // default notion icon and 경cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
   defaultPageIcon: null,
   defaultPageCover: null,
